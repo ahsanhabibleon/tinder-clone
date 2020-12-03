@@ -1,0 +1,11 @@
+.swipeToolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem 0;
+  button {
+    margin: 0 0.5rem;
+    background: #fff;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  }
+}
