@@ -12,7 +12,7 @@ function Header() {
             </IconButton>
 
             <div className="tinder__logo header__icon">
-                <a href="tinder.com">
+                <a href="/">
                     <img src="./logo.png" alt="" />
                 </a>
             </div>
