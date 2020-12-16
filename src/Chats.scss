@@ -1,0 +1,35 @@
+.chats {
+  padding: 1.5rem;
+}
+.chat {
+  border-top: 1px solid #ccc;
+  &:first-child {
+    padding-top: 0;
+    border-top: 0;
+  }
+  &__link {
+    display: flex;
+    align-items: center;
+    padding: 2rem 0;
+    text-decoration: none;
+    color: inherit;
+  }
+  &__avatar {
+    margin-right: 1rem;
+  }
+  &__details {
+    margin-right: 1rem;
+    p {
+      margin-top: 0.5rem;
+      color: #999;
+    }
+  }
+  &__timestamp {
+    margin-left: auto;
+    color: #ccc;
+  }
+  .MuiAvatar-root {
+    width: 3rem;
+    height: 3rem;
+  }
+}
