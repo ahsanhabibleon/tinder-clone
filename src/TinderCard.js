@@ -17,7 +17,6 @@ function TinderCard() {
         await fetch(tinderServer + '/tinder/cards')
             .then(res => res.json())
             .then((data) => {
-                console.log(data)
                 setPeople(data)
             })
     }
